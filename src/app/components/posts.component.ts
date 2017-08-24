@@ -8,7 +8,7 @@ import {Posts} from "../classes/posts";
 	templateUrl: "./templates/posts.php"
 })
 
-export class PostsComponent {
+export class PostsComponent implements OnInit {
 
 	posts : Posts[]
 
