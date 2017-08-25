@@ -2,7 +2,7 @@ import {Injectable} from "@angular/core";
 import {Http} from "@angular/http";
 import {Observable} from "rxjs/Observable";
 import {BaseService} from "./base-service";
-import {Posts} from "../classes/posts";
+import {Posts} from "../classes/post";
 import {Status} from "../classes/status";
 
 @Injectable()
